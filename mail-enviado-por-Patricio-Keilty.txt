@@ -1,0 +1,30 @@
+Va la versión 4 con importantes cambios.
+
+saludos,
+--p
+
+El día 5/11/07, Patricio Keilty <patricio.keilty@gmail.com > escribió:
+
+    Esta versión incorpora la persistencia de datos con JDBC, por favor lean las instrucciones en el fichero LEEME.txt del proyecto.
+
+    saludos,
+    --p
+
+    El día 30/10/07, Patricio Keilty <patricio.keilty@gmail.com> escribió:
+
+        Va la segunda entrega del proyecto ejemplo. En el fichero LEEME.txt están documentado las agregados respecto de la versión 1.
+
+        La próxima clase vamos a delinear que estrategia utilizar para persistir los datos a base de datos, para comenzar se puede utilizar JDBC embebido en las JSP o servlets (similar al ejemplo que mandó Martín Arnesi a los foros del Poli), y vamos a ver un patrón interesante para estos casos: DAO (Data Access Objects).
+
+        saludos,
+        --patricio
+
+        El día 17/10/07, Patricio Keilty < patricio.keilty@gmail.com> escribió:
+
+            Les envío adjunto el archivo del proyecto en eclipse con la aplicación ejemplo sobre la que vamos a trabajar las próximas clases.
+
+            Esta aplicación consiste en una primera versión de un blog sencillo, permite acceder al blog y administrarlo. Permite agregar entradas dal blog, agregar comentarios a cada entrada. Van a notar que la funcionalidad es muy básica, consta solamente de 3 ficheros jsp: index.jsp es la página principal donde se muestran las entradas del blog; entry.jsp con el detalle para una entrada en particular con sus comentarios y un formulario para agregar comentarios; new_entry.jsp contiene el formulario para crear una entrada. También van a notar otras falencias en esta versión: no autentica al usuario, no está implementado la edición y borrado de entradas, los datos no son persistentes se almacenan en memoria, no hay vínculos entre las páginas, etc.
+            Mi idea es ir evolucionando la aplicación, agregándole mejoras en el transcurso de las clases.
+
+            saludos,
+            --patricio
